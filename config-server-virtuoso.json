@@ -1,0 +1,15 @@
+{
+  "datasources": {
+    "pathways": {
+      "description": "Pathways in Virtuoso DB",
+      "type": "SparqlDatasource",
+      "settings": ["http://sparql.wikipathways.org/"]
+    }
+  },
+  "prefixes": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "wp": "http://vocabularies.wikipathways.org/wp#",
+    "gpml": "http://vocabularies.wikipathways.org/gpml#",
+    "dcterms": "http://purl.org/dc/terms/"
+  }
+}

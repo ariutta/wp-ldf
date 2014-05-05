@@ -1,5 +1,9 @@
-SELECT * WHERE {
-  ?s ?p "http://identifiers.org/ensembl/ENSG00000171105" .
-  ?s <http://www.example.org/interactsWith> ?o
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX gpml: <http://vocabularies.wikipathways.org/gpml#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+SELECT ?pathway, ?pubmed
+WHERE {
+  ?pubmed a wp:PublicationReference . 
+  ?pubmed dcterms:isPartOf ?pathway
 }
-LIMIT 10
