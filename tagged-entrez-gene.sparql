@@ -1,0 +1,4 @@
+SELECT * WHERE {
+  ?s <http://vocabularies.wikipathways.org/gpml#database> "Entrez Gene"
+}
+

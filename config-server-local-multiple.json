@@ -1,0 +1,16 @@
+{
+  "datasources": {
+    "pathways": {
+      "description": "Four pathways in JSON-LD format as local files",
+      "type": "JsonLdDatasource",
+      "settings": ["./wp-json/WP142.json",
+        "./wp-json/WP1113.json",
+        "./wp-json/WP1221.json",
+        "./wp-json/WP1203.json"]
+    }
+  },
+  "prefixes": {
+    "rdf":         "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "gpml":     "https://wikipathways.firebaseio.com/.json"
+  }
+}

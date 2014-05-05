@@ -1,0 +1,8 @@
+{
+  "datasource": "http://localhost:5000/pathways",
+  "prefixes": {
+    "rdf":         "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "gpml":     "https://wikipathways.firebaseio.com/.json"
+  }
+}
+

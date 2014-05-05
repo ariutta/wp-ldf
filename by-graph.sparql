@@ -1,0 +1,8 @@
+SELECT *
+WHERE { GRAPH ?Interaction {
+    ?s rdf:type <http://identifiers.org/biomodels.sbo/SBO:0000169>
+  } .
+  ?Node1 <http://vocabularies.wikipathways.org/wp#interactsWith> ?Node2
+}
+LIMIT 10
+

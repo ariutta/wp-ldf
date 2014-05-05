@@ -1,0 +1,13 @@
+{
+  "datasources": {
+    "pathways": {
+      "description": "Curated set of pathways in JSON-LD format on Firebase",
+      "type": "JsonLdDatasource",
+      "settings": ["https://wikipathways.firebaseio.com/pathways/.json"]
+    }
+  },
+  "prefixes": {
+    "rdf":         "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "gpml":     "https://wikipathways.firebaseio.com/.json"
+  }
+}

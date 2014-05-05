@@ -1,0 +1,5 @@
+SELECT *
+WHERE { 
+    ?Interaction rdf:type <http://identifiers.org/biomodels.sbo/SBO:0000169>
+}
+LIMIT 10

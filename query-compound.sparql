@@ -1,0 +1,5 @@
+SELECT * WHERE {
+  ?s <http://www.example.org/interactsWith> ?o .
+  ?s ?p "http://identifiers.org/ensembl/ENSG00000171105"
+}
+LIMIT 10
