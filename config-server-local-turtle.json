@@ -2,12 +2,12 @@
   "datasources": {
     "pathways": {
       "description": "Single pathway in JSON-LD format as local file",
-      "type": "JsonLdDatasource",
-      "settings": ["./local-data/WP525.json"]
+      "type": "N3Datasource",
+      "settings": ["./local-data/sample.ttl"]
     }
   },
   "prefixes": {
     "rdf":         "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "gpml":     "https://wikipathways.firebaseio.com/.json"
+    "foaf": "http://xmlns.com/foaf/0.1/"
   }
 }

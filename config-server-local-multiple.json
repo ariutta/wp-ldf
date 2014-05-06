@@ -3,10 +3,10 @@
     "pathways": {
       "description": "Four pathways in JSON-LD format as local files",
       "type": "JsonLdDatasource",
-      "settings": ["./wp-json/WP142.json",
-        "./wp-json/WP1113.json",
-        "./wp-json/WP1221.json",
-        "./wp-json/WP1203.json"]
+      "settings": ["./local-data/WP142.json",
+        "./local-data/WP525.json",
+        "./local-data/WP1221.json",
+        "./local-data/WP1203.json"]
     }
   },
   "prefixes": {
