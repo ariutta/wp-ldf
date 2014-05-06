@@ -1,6 +1,6 @@
 {
   "datasources": {
-    "pathwaya": {
+    "bec": {
       "description": "WP142",
       "type": "JsonLdDatasource",
       "settings": ["./local-data/WP142.json"]
@@ -10,12 +10,12 @@
       "type": "JsonLdDatasource",
       "settings":["./local-data/WP525.json"]
     },
-    "pathwayc": {
+    "bccb": {
       "description": "WP1221",
       "type": "JsonLdDatasource",
       "settings": ["./local-data/WP1221.json"]
     },
-    "pathwayd": {
+    "bcad": {
       "description": "WP1203",
       "type": "JsonLdDatasource",
       "settings": ["./local-data/WP1203.json"]
