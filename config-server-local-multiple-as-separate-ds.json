@@ -1,0 +1,28 @@
+{
+  "datasources": {
+    "pathwaya": {
+      "description": "WP142",
+      "type": "JsonLdDatasource",
+      "settings": ["./local-data/WP142.json"]
+    },
+    "fcf": {
+      "description": "WP525",
+      "type": "JsonLdDatasource",
+      "settings":["./local-data/WP525.json"]
+    },
+    "pathwayc": {
+      "description": "WP1221",
+      "type": "JsonLdDatasource",
+      "settings": ["./local-data/WP1221.json"]
+    },
+    "pathwayd": {
+      "description": "WP1203",
+      "type": "JsonLdDatasource",
+      "settings": ["./local-data/WP1203.json"]
+    }
+  },
+  "prefixes": {
+    "rdf":         "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "gpml":     "https://wikipathways.firebaseio.com/.json"
+  }
+}

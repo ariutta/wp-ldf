@@ -1,4 +1,4 @@
 SELECT * WHERE {
-  ?s <http://www.biopax.org/release/biopax-level3.owl#UnificationXref> <http://identifiers.org/ensembl/Y47G6A.10>
+  ?s <http://www.biopax.org/release/biopax-level3.owl#UnificationXref> ?o
 }
 LIMIT 10

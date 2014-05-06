@@ -12,6 +12,8 @@
   "author": "Anders Riutta",
   "license": "Apache 2",
   "dependencies": {
-    "ldf-server": "~0.3.0"
+    "ldf-server": "~0.3.0",
+    "ldf-client": "~0.2.2",
+    "n3": "~0.2.7"
   }
 }
